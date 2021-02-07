@@ -9,3 +9,5 @@ def compute_error_for_line_given_point(b_gradient,w_current,points):
         y = points[i,1]
 
         b_gradient += (2/n) * ((w_current * x +b_current)- y)
+
+compute_error_for_line_given_point()
